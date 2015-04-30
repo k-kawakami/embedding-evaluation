@@ -11,10 +11,13 @@ Wordsim task can be run on english, spanish, and french wordembeddings.
 python wordsim.py -l en -v vector_file.txt
 ```
 
-Your vector file to satisfy the following form.
+Your vector file need to satisfy the following form.
 - apple 0.01 0.2 0.01 ...
 
 You can also feed in compressed version of vector file.
 ```
 python wordsim.py -l en -v vector_file.txt.gz
 ```
+
+### Requirements
+- numpy, scipy, ( gzip, prettytable )

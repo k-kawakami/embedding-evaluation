@@ -1,6 +1,5 @@
 import os 
 import sys
-import gzip
 import logging
 import argparse
 import numpy
@@ -30,6 +29,7 @@ class Wordsim:
         try:
             logging.info("loading vector ..")
             if path[-3:] == ".gz":
+                import gzip
                 f = gzip.open(path, "rb")
             else:
                 f = open(path, "rb")
