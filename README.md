@@ -19,7 +19,7 @@ You can also feed in compressed version of vector file.
 python wordsim.py -l en -v vector_file.txt.gz
 ```
 
-## Task Descriptions
+## Task References
 - [MC-30](http://www.tandfonline.com/doi/pdf/10.1080/01690969108406936)
 - [MEN-TR](http://clic.cimec.unitn.it/~elia.bruni/MEN.html)
 - [MTurk-287](http://tx.technion.ac.il/~kirar/files/Radinsky-TemporalSemantics.pdf)
